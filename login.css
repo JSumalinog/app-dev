@@ -1,0 +1,64 @@
+/* Palette approximating the mock */
+:root {
+  --sand-100: #f1d8b6; /* top bar */
+  --card-header: #efe3a7; /* login card header */
+  --border-200: #d7d7d7;
+  --text-900: #222222;
+  --salmon: #cf7f69;
+  --salmon-hover: #bb6f5c;
+  --muted-600: #6c757d;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--text-900);
+}
+
+.topbar {
+  background: var(--sand-100);
+  border-bottom: 1px solid var(--border-200);
+}
+
+.login-card {
+  border: 1px solid var(--border-200);
+}
+
+.login-card .card-header {
+  background: var(--card-header);
+  border-bottom: 1px solid var(--border-200);
+  font-weight: 600;
+}
+
+.login-card .form-label {
+  font-size: 0.9rem;
+}
+
+.btn-salmon {
+  background: var(--salmon);
+  color: #ffffff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.6rem 1.25rem;
+}
+
+.btn-salmon:hover {
+  background: var(--salmon-hover);
+  color: #ffffff;
+}
+
+.input-group > .btn {
+  border-color: var(--border-200);
+}
+
+.input-group .form-control {
+  border-right: 0;
+}
+
+.input-group .btn {
+  border-left: 0;
+}
+
+/* Subtle chevron alignment */
+.bi-chevron-right {
+  font-size: 1rem;
+}
