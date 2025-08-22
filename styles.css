@@ -1,0 +1,39 @@
+/* Top bar styling */
+.topbar {
+  background-color: #edd1ab; /* light tan */
+}
+
+/* Login button resembles pill with warm tone */
+.login-btn {
+  background-color: #d77458;
+  border-color: #d77458;
+  color: #fff;
+}
+.login-btn:hover {
+  background-color: #c2654a;
+  border-color: #c2654a;
+  color: #fff;
+}
+
+/* Mock card styling to match image */
+.mock-card {
+  border-color: #2f80ed; /* blue border */
+  height: 340px;
+}
+.mock-card-header {
+  background-color: #ffe08a; /* pale yellow */
+  height: 34px;
+}
+.close-icon {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  line-height: 1;
+  color: #000;
+}
+.mock-card-body {
+  height: calc(340px - 34px);
+  background-color: #ffffff;
+}
